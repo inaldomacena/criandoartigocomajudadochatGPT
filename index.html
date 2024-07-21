@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site OnePage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Botão do menu sanduíche -->
+    <div class="menu-toggle" id="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+        <nav-menu>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Front-end">Front-end</a></li>
+                <li><a href="#Servicos">Serviços</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav-menu>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <img src="./img/img/banner.png" alt="Banner do site" />
+        </div>
+        
+    </section>
+
+    <section id="front-end">
+        <h2>Front-end</h2>
+        <p>Acessibilidade e Responsividade</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <p>Front-end é a parte de um site ou aplicativo que você vê e interage. Pense nele como a decoração e a mobília de uma casa: ele inclui tudo, desde botões e menus até imagens e textos. A acessibilidade na web garante que todas as pessoas, incluindo aquelas com deficiências, possam usar a internet sem problemas. Por exemplo, sites acessíveis têm textos alternativos para imagens (que descrevem o que a imagem mostra) e botões que podem ser usados com o teclado, não só com o mouse. Já a responsividade é quando um site ou aplicativo se ajusta automaticamente ao tamanho da tela, seja um computador, tablet ou celular. Um exemplo de site responsivo é o Google, que funciona bem em qualquer dispositivo. Ambos são essenciais para criar uma internet que todos possam usar facilmente, não importa suas habilidades ou o dispositivo que estão usando.
+        </p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+     <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Empresa Exemplo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

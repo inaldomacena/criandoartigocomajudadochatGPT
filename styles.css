@@ -1,0 +1,179 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #458ee2;
+    color: #0c0c0c;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #458ee2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Formulário de Contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #206ee4;
+    color: #0f0f0f;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #06c53f;
+    color:#041f3d;
+    border:blueviolet 1px solid;
+    border-radius: 10px;
+}
+
+
+* Estilos para o banner */
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilizando o <section> com o id 'servicos' */
+#servicos {
+    background-color: #ece4e400; /* Cor de fundo clara */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(51, 153, 221, 0.288); /* Sombra leve */
+    margin: 20px auto; /* Espaçamento externo e centralização */
+    max-width: 800px; /* Largura máxima */
+}
+
+/* Estilizando o <h2> dentro da seção 'servicos' */
+#servicos h2 {
+    color: #05050500; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+/* Estilizando o <p> dentro da seção 'servicos' */
+#servicos p {
+    color: #131212; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha para melhorar a legibilidade */
+    text-align: justify; /* Justificar o texto */
+}
+
+/* Estilos básicos para o corpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para o botão do menu sanduíche */
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    z-index: 1000;
+    margin: 20px;
+}
+
+.menu-toggle .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+/* Estilos para o menu de navegação */
+nav-menu {
+    display: none; /* Oculta o menu por padrão */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav-menu li {
+    margin: 10px 0;
+}
+
+nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav-menu a:hover {
+    color: #ddd;
+}
+
+/* Exibe o menu quando a classe 'active' é adicionada ao <nav-menu> */
+nav-menu.active {
+    display: block;
+}
+
+/* Estilos para o botão do menu sanduíche em telas pequenas */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+
+
