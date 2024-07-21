@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site OnePage</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/img/img/favicon-32x32.png" type="image/x-icon">
+    
 </head>
 <body>
     <header>
-        <!-- Botão do menu sanduíche -->
-    <div class="menu-toggle" id="menu-toggle">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
-        <nav-menu>
+        
+        <menu>
+        
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Front-end">Front-end</a></li>
-                <li><a href="#Servicos">Serviços</a></li>
-                <li><a href="#Contato">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#front-end">Front-end</a></li>
+                <li><a href="#responsividade">Responsividade</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
-        </nav-menu>
+        
+        </menu>
     </header>
 
     <section id="home">
@@ -31,15 +31,23 @@
         
     </section>
 
-    <section id="front-end">
+    <section class="front-end" id="front-end">
+        <h2>Front-end</h2>
+        <p>essência</p>
+    </section>
+
+    <section class="texto">
+        <h2>responsividade</h2>
+        <p>O frontend é a parte de um site ou aplicação web que os usuários veem e interagem diretamente. Ele envolve a criação da interface visual e a experiência do usuário (UX). As principais tecnologias usadas no desenvolvimento frontend são HTML, CSS e JavaScript. HTML é responsável pela estrutura da página, CSS cuida do estilo e aparência, e JavaScript adiciona interatividade. O trabalho de um desenvolvedor frontend inclui criar layouts responsivos, garantindo que o site funcione bem em diferentes dispositivos e tamanhos de tela. Além disso, o frontend deve ser otimizado para desempenho e acessibilidade, para que todos os usuários possam acessar o conteúdo de forma eficiente. Frameworks e bibliotecas populares, como React, Angular e Vue.js, são frequentemente usados para facilitar e acelerar o desenvolvimento frontend.</p>
+    </section>
+    <section class="responsividade" id="responsividade">
         <h2>Front-end</h2>
         <p>Acessibilidade e Responsividade</p>
     </section>
 
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <p>Front-end é a parte de um site ou aplicativo que você vê e interage. Pense nele como a decoração e a mobília de uma casa: ele inclui tudo, desde botões e menus até imagens e textos. A acessibilidade na web garante que todas as pessoas, incluindo aquelas com deficiências, possam usar a internet sem problemas. Por exemplo, sites acessíveis têm textos alternativos para imagens (que descrevem o que a imagem mostra) e botões que podem ser usados com o teclado, não só com o mouse. Já a responsividade é quando um site ou aplicativo se ajusta automaticamente ao tamanho da tela, seja um computador, tablet ou celular. Um exemplo de site responsivo é o Google, que funciona bem em qualquer dispositivo. Ambos são essenciais para criar uma internet que todos possam usar facilmente, não importa suas habilidades ou o dispositivo que estão usando.
-        </p>
+    <section class="texto">
+        <h2>responsividade</h2>
+        <p>Responsividade e acessibilidade são conceitos fundamentais no desenvolvimento frontend. A primeira refere-se à capacidade de um site ou aplicação web se ajustar e funcionar bem em diferentes dispositivos e tamanhos de tela, como desktops, tablets e smartphones. Isso garante que o conteúdo seja visualizado de forma clara e funcional, independentemente do dispositivo usado pelo usuário. Acessibilidade, por outro lado, envolve tornar o conteúdo web utilizável para pessoas com diferentes habilidades. Isso inclui proporcionar alternativas textuais para imagens, garantir que os sites possam ser navegados por teclado (importante para pessoas com deficiências motoras) e usar contrastes de cores adequados para pessoas com deficiências visuais. Ambas as práticas, quando aplicadas, melhoram significativamente a experiência do usuário, tornando a web mais inclusiva e funcional para todos. </p>
     </section>
 
     <section id="contato">
@@ -57,7 +65,7 @@
             <button type="submit">Enviar</button>
         </form>
     </section>
-     <script src="script.js"></script>
+     
     <footer>
         <p>&copy; 2024 Empresa Exemplo. Todos os direitos reservados.</p>
     </footer>
