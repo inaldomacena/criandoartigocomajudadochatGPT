@@ -1,2 +1,2 @@
-# Criando artigo com ajuda do chatGPT
+ Criando um artigo com ajuda do chatGPT
  
