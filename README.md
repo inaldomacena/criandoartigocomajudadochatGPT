@@ -1,4 +1,4 @@
  Nesse projeto foi criando um artigo com ajuda do chatGPT <br>
  Usando o ChatGPT criamos o conteudo de um artigo que foi adicionado a um site tipo Onepage <br>
- O link para o site contendo o artigo é href"= https://inaldomacena.github.io/criandoartigocomajudadochatGPT/ target_blank"
+ O link para o site contendo o artigo é <href"= https://inaldomacena.github.io/criandoartigocomajudadochatGPT/ target_blank">
  
